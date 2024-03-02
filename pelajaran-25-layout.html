@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Style</title>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            header{
+                background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+
+            nav ul{
+                display: flex;
+            }
+
+            nav li{
+                float: left;
+            }
+
+            nav ul li{
+                margin: 15px;
+                padding: 10px;
+                list-style: none;
+                border: 1px solid #000;
+            }
+
+            nav ul li a{
+                font-size: 15px;
+                text-decoration: none;
+                display: block;
+            }
+
+            section{
+                background-color: pink;
+                width: 100%;
+                height: 80vh;
+            }
+            
+            section article{
+                padding: 20px;
+            }
+
+            section article h1{
+                margin-bottom: 10px;
+                padding: 0px;
+                font-size: 25px;
+            }
+            footer{
+                background-color: blanchedalmond;
+                text-align: center;
+                height: 20px;
+                width: 100%;
+            }
+
+            footer p{
+                text-align: center;
+                padding: 15px;
+                font-size: 25px;
+            }
+
+            footer p time{
+                font-weight: bold;
+                color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>LOGO</h1>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">artikel</a></li>
+                    <li><a href="">kontak kami</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>TAG SEMANITC</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Architecto veniam minus corrupti aspernatur sed!
+                </p>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright by adittplong <time datetime="2024">2024</time></p>
+        </footer>
+    </body>
+</html>
